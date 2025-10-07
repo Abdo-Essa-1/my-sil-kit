@@ -3,6 +3,7 @@ compile_commands.json
 # ignore cmake-generated path directories
 ^build*/
 _build*/
+build*/
 install*/
 _install*/
 .vscode
