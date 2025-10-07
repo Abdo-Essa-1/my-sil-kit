@@ -39,3 +39,10 @@ cmake .. -D CMAKE_INSTALL_PREFIX=../install -D CMAKE_BUILD_TYPE=Debug -D SILKIT_
 ```bash
 cmake --build . --target install
 ```
+## Opening the Documentation
+
+After building the project with documentation, to open the html documentation just excute this command:
+
+```bash
+xdg-open install/SilKit-Documentation/index.html
+```
